@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_backgroud" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:layout_height="match_parent">
+         <LinearLayout
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_marginTop="@dimen/_100sdp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <ImageView
+                 android:layout_width="@dimen/_100sdp"
+                 android:layout_height="@dimen/_100sdp"
+                 android:src="@drawable/logo_canifa"/>
+             <TextView
+
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Ideal store for your shopping"
+                 android:textStyle="bold"
+                 android:layout_margin="@dimen/_10sdp"
+                 android:textSize="@dimen/_20sdp"
+                 android:textColor="@color/white"/>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:background="@drawable/background_login"
+             android:layout_marginRight="@dimen/_20sdp"
+             android:layout_marginTop="@dimen/_30sdp"
+             android:layout_marginLeft="@dimen/_20sdp"
+             android:layout_marginBottom="@dimen/_90sdp"
+             android:layout_height="match_parent">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_margin="@dimen/_10sdp"
+                 android:orientation="vertical"
+                 android:layout_weight="2">
+                 <LinearLayout
+                     android:layout_marginTop="@dimen/_10sdp"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:orientation="vertical"
+                     android:layout_weight="1">
+                     <TextView
+                         android:textColor="@color/black"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Tên tài khoản"
+                         android:textSize="@dimen/_15sdp">
+
+                     </TextView>
+                     <EditText
+                         android:id="@+id/etUserName"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:inputType="text">
+
+                     </EditText>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_marginTop="@dimen/_10sdp"
+                     android:orientation="vertical"
+                     android:layout_weight="1">
+                     <TextView
+                         android:textSize="@dimen/_15sdp"
+                         android:textColor="@color/black"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Mật khẩu">
+
+                     </TextView>
+                     <com.google.android.material.textfield.TextInputLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         app:passwordToggleEnabled="true"
+                         app:boxBackgroundColor="@color/white"
+                         >
+                         <EditText
+                             android:id="@+id/etPassword"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:inputType="textPassword">
+
+                         </EditText>
+                     </com.google.android.material.textfield.TextInputLayout>
+                 </LinearLayout>
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1">
+                 <Button
+                     android:id="@+id/btnLogin"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/_40sdp"
+                     android:layout_marginLeft="@dimen/_10sdp"
+                     android:layout_marginRight="@dimen/_10sdp"
+                     android:text="Đăng nhập"
+                     android:layout_marginTop="@dimen/_10sdp"/>
+             </LinearLayout>
+         </LinearLayout>
+     </LinearLayout>
+    </RelativeLayout>
+</layout>

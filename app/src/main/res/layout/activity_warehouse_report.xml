@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp">
+
+      <TextView
+          android:id="@+id/tvTitle"
+          style="@style/textTitle"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="@dimen/_10sdp"
+          android:gravity="center_vertical"
+          android:text="Phiếu nhập" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorGrayLight"/>
+    <LinearLayout
+        android:background="@drawable/backgourd_item_order_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp">
+
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:padding="@dimen/_9sdp"
+          android:src="@drawable/ic_search"
+          app:tint="@color/black" />
+
+      <EditText
+          android:layout_margin="@dimen/_2sdp"
+          android:id="@+id/edtSearch"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="5"
+          android:background="@color/white"
+          android:hint="Tìm kiếm"
+          android:padding="@dimen/_10sdp" />
+
+      <ImageView
+          android:visibility="invisible"
+          android:id="@+id/btnDelete"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5"
+          android:padding="@dimen/_5sdp"
+          android:src="@drawable/ic_delete" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvReceipt" />
+  </LinearLayout>
+</layout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.canifa_shop">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Canifa_Shop">
+        <activity android:name=".Manager.ImportProductActivity"/>
+        <activity android:name=".Manager.WarehouseReportActivity"/>
+        <activity android:name=".Bill.BillDetailActivity"></activity>
+        <activity android:name=".Emplyee.EmployeeManagerActivity" />
+        <activity android:name=".Account.AcountManagerActivity" />
+        <activity android:name=".Manager.WarehouseManagerActivity" />
+        <activity android:name=".Customer.CustomerDetailActivity" />
+        <activity android:name=".Customer.CustomerActivity" />
+        <activity android:name=".Category.CategoryDetail" />
+        <activity android:name=".Category.CategoryActivity" />
+        <activity android:name=".Product.ProductDetailActivity" />
+        <activity android:name=".Product.ProductActivity" />
+        <activity android:name=".Login.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

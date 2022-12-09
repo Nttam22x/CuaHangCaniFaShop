@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/drawable/backgourd_item_order_product.xml" value="0.209" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/drawable/backgroud_button_update.xml" value="0.209" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/drawable/backgroud_cart_amount.xml" value="0.209" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/drawable/ic_add.xml" value="0.209" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/activity_acount_manager.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/activity_bill_detail.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/activity_customer.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/activity_employee_manager.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/activity_improd_product.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/activity_login.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/activity_product_detail.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/fragment_bill.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/fragment_report.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/fragment_selling.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/item_order_product.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/layout/item_receipt.xml" value="0.2015625" />
+        <entry key="..\:/HK1_2022/Android/BanQuanAoCanifa/BanQuanAoCanifa/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.209" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

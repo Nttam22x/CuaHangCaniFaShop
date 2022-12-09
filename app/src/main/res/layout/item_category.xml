@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_height="@dimen/_50sdp">
+    <TextView
+        android:id="@+id/tvNameCategory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/text15"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tvTotalProduct"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tvDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
